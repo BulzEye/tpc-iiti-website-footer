@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation {
+    background-color: rgb(227, 242, 253);
+    display: grid;
+    padding: 2vw 0px;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-evenly;
+}
+
+footer div>div h1 {
+    font-family: 'Noto Sans', Verdana, Calibri, sans-serif;
+    font-size: 1.5em;
+}
+
+footer div>ul, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Color of the paragraphs */
+footer div div p, ul>li>a, ul {
+    color: #585f69;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+div.social {
+    grid-area: "infobox"
+}
+
+div#tech-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vw 4vw;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(194, 225, 247);
+    color: black;
+}
+
+div#social>h1 {
+    float: right;
+    font-size: 1.5em;
+}
+
+a.social-link {
+    color: black;
+}
+
+a.social-link:hover {
+    color: rgba(0,0,0,.55);
+}
+
+footer a {
+    transition: color 0.2s;
+}
+
+/* 
+Note:
+- If using full width footer, comment the bottom section
+- If using short footer, let it be
+*/
+
+/* footer div#navigation, div#tech-info {
+    width: 95%;
+    margin: auto;
+} */
