@@ -68,6 +68,12 @@ footer a {
     transition: color 0.2s;
 }
 
+span#cred {
+    position: relative;
+    /* adjust this value for accommodating the 'back to top' button */
+    right: 75px;
+}
+
 /* 
 Note:
 - If using full width footer, comment the bottom section
